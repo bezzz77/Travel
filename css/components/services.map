@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/components/services.css",
+	"sources": [
+		"../../sass/components/services.sass"
+	],
+	"sourcesContent": [
+		".services {\n  background-color: #f7f9fb; }\n.services_container {\n  display: grid;\n  grid-template-columns: 65px 200px 65px 200px 65px 200px;\n  grid-template-rows: 200px 200px;\n  justify-content: center;\n  grid-gap: 20px 30px;\n  padding-top: 145px;\n  width: 1900px;\n  height: 600px; }\n.highimg {\n  background-image: url(\"../img/imac.png\");\n  background-repeat: no-repeat; }\n.photoimg {\n  background-image: url(\"../img/phot.png\");\n  background-repeat: no-repeat; }\n.layersimg {\n  background-image: url(\"../img/file.png\");\n  background-repeat: no-repeat; }\n.supportimg {\n  background-image: url(\"../img/smartphone.png\");\n  background-repeat: no-repeat; }\n.themeimg {\n  background-image: url(\"../img/wand.png\");\n  background-repeat: no-repeat; }\n.ttvimg {\n  background-image: url(\"../img/share.png\");\n  background-repeat: no-repeat; }\n.text_edit {\n  font-family: \"MariadPro\";\n  line-height: 22px; }\n"
+	],
+	"mappings": ";;AAAA,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,OAAQ;CAAG;;;AAC/B,AAAA,mBAAmB,CAAC;EAClB,OAAO,EAAE,IAAK;EACd,qBAAqB,EAAE,gCAAiC;EACxD,kBAAkB,EAAE,WAAY;EAChC,eAAe,EAAE,MAAO;EACxB,QAAQ,EAAE,SAAU;EACpB,WAAW,EAAE,KAAM;EACnB,KAAK,EAAE,MAAO;EACd,MAAM,EAAE,KAAM;CAAG;;;AACnB,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,sBAAG;EACrB,iBAAiB,EAAE,SAAU;CAAG;;;AAClC,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,sBAAG;EACrB,iBAAiB,EAAE,SAAU;CAAG;;;AAClC,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,sBAAG;EACrB,iBAAiB,EAAE,SAAU;CAAG;;;AAClC,AAAA,WAAW,CAAC;EACV,gBAAgB,EAAE,4BAAG;EACrB,iBAAiB,EAAE,SAAU;CAAG;;;AAClC,AAAA,SAAS,CAAC;EACR,gBAAgB,EAAE,sBAAG;EACrB,iBAAiB,EAAE,SAAU;CAAG;;;AAClC,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,uBAAG;EACrB,iBAAiB,EAAE,SAAU;CAAG;;;AAClC,AAAA,UAAU,CAAC;EACT,WAAW,EAAE,WAAY;EACzB,WAAW,EAAE,IAAK;CAAG",
+	"names": []
+}

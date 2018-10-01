@@ -1,0 +1,66 @@
+.articles
+  padding-bottom: 200px
+  @include res('tab')
+    padding-bottom: 50px
+.articles_text
+  padding-top: 290px
+  padding-bottom: 145px
+  display: inline-block
+  margin-left: 50%
+  transform: translateX(-50%)
+  h2
+    font-size: 60px
+    color: $orange
+    text-align: center
+    &:after
+      content: ""
+      +general-block(90px, 3px)
+      background-color: $orange
+      @include res('tab')
+        margin-left: 50%
+        transform: translateX(-50%)
+.first_img
+  padding-left: 30px
+  padding-bottom: 40px
+.firstimg_wrap
+  box-shadow:  -30px -30px 0px 0px  $grey
+.first_text
+  h3
+    color: $orange
+    font-size: 20px
+    &:after
+      content: ""
+      +general-block(373px, 1px)
+      background-color: $orange
+      margin-top: 20px
+      margin-bottom: 30px
+  p
+    color: white
+    font-size: 16px
+    width: 370px
+    height: 105px
+    line-height: 30px
+    margin-bottom: 70px
+  span
+    color: $orange
+    font-size: 16px
+    text-transform: uppercase
+    font-weight: 600
+
+
+.wrap_article
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  @include res('tab')
+    flex-direction: column
+  .general_article
+    @include res('tab')
+      +flex(center,center,column)
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+
+.article_second
+  padding-top: 85px

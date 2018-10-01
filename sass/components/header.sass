@@ -1,0 +1,47 @@
+body
+  width: 100%
+  height: 100vh
+  background-image: url("../img/back.png")
+  background-size: cover
+  background-repeat: no-repeat
+  @include res('tab')
+      background-size: auto
+
+header
+  height: 100vh
+  @include res('tab')
+    padding: 0 10px
+.header_wrapp
+  +flex()
+  flex-direction: column
+  width: 100%
+  max-width: 965px
+  height: 100%
+  max-height: 475px
+  border: 10px solid #ac752f
+  top: 170px
+  transform: translateY(40%)
+  padding: 80px
+  span
+    font-size: 24px
+    text-align: center
+    color: white
+    text-transform: uppercase
+
+
+    // &::after
+    //   content: "dsfsd"
+    //   border-bottom: 2px solid #fff
+    //   width: 30px
+    //   display: inline
+
+
+
+  h1
+    font-size: 185px
+    text-align: center
+    color: #fff
+  p
+    font-size: 24px
+    text-align: center
+    color: #ac752f

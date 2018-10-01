@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/components/features.css",
+	"sources": [
+		"../../sass/components/features.sass"
+	],
+	"sourcesContent": [
+		".features_wrapp {\n  padding-bottom: 335px; }\n.features_container {\n  h2 {\n    font-size: 72px;\n    font-family: \"impact\";\n    font-weight: 400;\n    color: #25365d;\n    text-align: center;\n    padding-top: 150px; } }\n.img_features {\n  // сделать по центру по правильному\n  position: absolute;\n  margin-left: 170px;\n  padding-top: 145px; }\n\n.features_coll1 {\n  display: grid;\n  grid-template-columns: 150px 150px;\n  grid-template-rows: 50px 50px;\n  justify-content: space-between;\n  margin-top: 185px;\n  grid-gap: 140px;\n  line-height: 20px; }\n.text_edit {\n  font-family: \"MariadPro\";\n  line-height: 22px;\n  h3 {\n    font-size: 22px;\n    color: #25365d;\n    font-family: \"MariadPro\";\n    font-weight: 600;\n    &::after {\n      border-right: 2px solid black; } } }\n"
+	],
+	"mappings": ";;AAAA,AAAA,eAAe,CAAC;EACd,cAAc,EAAE,KAAM;CAAG;;;AAC3B,AACE,mBADiB,CACjB,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,QAAS;EACtB,WAAW,EAAE,GAAI;EACjB,KAAK,EAAE,OAAQ;EACf,UAAU,EAAE,MAAO;EACnB,WAAW,EAAE,KAAM;CAAG;;;AAC1B,AAAA,aAAa,CAAC;EAEZ,QAAQ,EAAE,QAAS;EACnB,WAAW,EAAE,KAAM;EACnB,WAAW,EAAE,KAAM;CAAG;;;AAExB,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAK;EACd,qBAAqB,EAAE,WAAY;EACnC,kBAAkB,EAAE,SAAU;EAC9B,eAAe,EAAE,aAAc;EAC/B,UAAU,EAAE,KAAM;EAClB,QAAQ,EAAE,KAAM;EAChB,WAAW,EAAE,IAAK;CAAG;;;AACvB,AAAA,UAAU,CAAC;EACT,WAAW,EAAE,WAAY;EACzB,WAAW,EAAE,IAAK;CAOuB;;;AAT3C,AAGE,UAHQ,CAGR,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,OAAQ;EACf,WAAW,EAAE,WAAY;EACzB,WAAW,EAAE,GAAI;CAEoB;;;AATzC,AAGE,UAHQ,CAGR,EAAE,AAKC,OAAO,CAAC;EACP,YAAY,EAAE,eAAgB;CAAG",
+	"names": []
+}

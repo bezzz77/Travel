@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/components/homeconteiner.css",
+	"sources": [
+		"../../sass/components/homeconteiner.sass"
+	],
+	"sourcesContent": [
+		".main_container {\n  h1 {\n    font-size: 50px;\n    color: #fff;\n    text-align: center;\n    font-weight: 400; } }\n"
+	],
+	"mappings": ";;AAAA,AACE,eADa,CACb,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,MAAO;EACnB,WAAW,EAAE,GAAI;CAAG",
+	"names": []
+}

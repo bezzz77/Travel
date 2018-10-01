@@ -1,0 +1,46 @@
+.galery
+  margin-bottom: 225px
+  @include res('tab')
+    margin-bottom: 50px
+.galery_caption
+  h3
+    font-size: 60px
+    color: $orange
+    margin-left: 60px
+    &:after
+      content: ""
+      +general-block(90px, 3px)
+      background-color: $orange
+.galery_photo
+
+.row
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  padding-left: 30px
+  margin-bottom: 80px
+  @include res('tab')
+    .column
+      width: 33%
+      img
+        width: 100%
+.column
+  flex: 25%
+  max-width: 25%
+  padding-bottom: 30px
+.column img
+  margin: 10px
+  vertical-align: middle
+.col1
+  margin-top: 70px
+.col3
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: flex-end
+  justify-content: space-between
+  padding-top: 140px
+.galery_button
+  text-align: center
+.btn
+  background-color: inherit
